@@ -1,0 +1,86 @@
+body {
+    background-image: url(../images/disney.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid {
+    width: 575px;
+    height: 550px;
+    float: right;
+    margin-top: 5%;
+    margin-right: 3%;
+    padding: 30px;
+    border-radius: 50px;
+    border: 2px solid gray;
+    box-shadow: 10px black;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+.option {
+    width: 525px;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+    background:black;
+    margin: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+.option:hover {
+    background: gray;
+    color: blue;
+}
+
+.next-btn {
+    border: none;
+    outline: none;
+    background:black;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+    color: white
+}
+
+
+
+.results {
+    height: 100px;
+    text-align: center;
+    font-size: 75px;
+}
+
+.option input:checked .option {
+    background: pink;
+    color: red;
+}
+
+#start-button {
+    border: none;
+    outline: none;
+    background: black;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    float: left;
+    margin: 10px;
+    color: white;
+}
+
+#question {
+    color: white;
+    text-align: center;
+}
+
+#opt1, #opt2, #opt3, #opt4 {
+    color: white;
+}
