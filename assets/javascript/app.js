@@ -189,7 +189,7 @@ var quiz = {
   reset: function () {
     $("#imageDisplay").empty();
     quiz.currentQuestion = 0;
-    quiz.counter = 15;
+    quiz.counter = 30;
     quiz.correct = 0;
     quiz.incorrect = 0;
     quiz.unanswered = 0;
